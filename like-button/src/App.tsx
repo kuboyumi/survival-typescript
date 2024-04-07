@@ -18,9 +18,18 @@ function App() {
         >
           Learn React
         </a>
+        <p>
+          TypeScriptはいいぞ
+        </p>
+        <LikeButton/>
       </header>
     </div>
   );
+}
+
+function LikeButton() {
+  const count = 999;
+  return <span className='likeButton'>♥ {count}</span>
 }
 
 export default App;
