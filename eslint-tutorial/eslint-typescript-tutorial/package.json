@@ -1,1 +1,8 @@
-{"name": "eslint-typescript-tutorial", "license": "UNLICENSED"}
+{
+  "name": "eslint-typescript-tutorial",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^16",
+    "typescript": "^4.6"
+  }
+}
